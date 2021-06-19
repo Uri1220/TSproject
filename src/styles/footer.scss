@@ -1,0 +1,86 @@
+.footer {
+  padding: 48px 0;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    margin-right: 26px;
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+    display: flex;
+    color: #ffffff;
+    font-size: 13px;
+  }
+}
+.social {
+  width: 320px;
+  height: 38px;
+  padding: 0;
+  margin: 1px 0 0 0;
+  position: relative;
+  float: right;
+
+  a {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0 0 0 15px;
+    position: relative;
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -khtml-border-radius: 100%;
+
+    &.facebook {
+      background: url('../img/footer-social/soc-1.png') no-repeat center center;
+      // background: url('/images/soc-1.png') no-repeat center center;
+    }
+
+    &.telegram {
+      background: url('../img/footer-social/soc-2.png') no-repeat center center;
+    }
+
+    &.twitter {
+      background: url('../img/footer-social/soc-3.png') no-repeat center center;
+    }
+
+    &.youtube {
+      background: url('../img/footer-social/soc-4.png') no-repeat center center;
+    }
+
+    &.bitcoin {
+      background: url('../img/footer-social/soc-5.png') no-repeat center center;
+    }
+
+    &.vk {
+      background: url('../img/footer-social/soc-vk.svg') no-repeat center center;
+    }
+
+    &.instagram {
+      background: url('../img/footer-social/soc-instagram.svg') no-repeat center center;
+    }
+
+    &.email {
+      background: url('../img/footer-social/soc-email.svg') no-repeat center center;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

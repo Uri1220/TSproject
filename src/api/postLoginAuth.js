@@ -1,0 +1,18 @@
+import { setLoad, setLogin } from "../store/reducer";
+
+export default async function postLoginAuth(dispatch) {
+  return new Promise((resolve, reject) => {
+    setLoad(dispatch, true);
+    let wait = setTimeout(() => {
+      clearTimeout(wait);
+      resolve(
+        "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjI3MTU5NDEsIm5iZiI6MTYyMjcxNTk0MSwianRpIjoiNTg2ZGM2MjItZDFiMC00MWE5LTg4MzEtNTdmY2I3ZjAxMDk4IiwiaWRlbnRpdHkiOnsiZW1haWwiOiJkZWNsMDExQHR1dC5ieSIsInRlbGVncmFtIjoiIiwiZW1haWxfY29uZmlybWVkIjpmYWxzZSwidGVsZWdyYW1fY29uZmlybWVkIjpmYWxzZSwidGVsZWdyYW1fY29uZmlybWF0aW9uIjoiNTI5NTQ0IiwiYWRkcmVzcyI6Im91cm8xajA1NHRwcDJleXFxZWc3ZHc5YzRwOXJqd2Z1a21sd3VkN3N4dWsiLCJwdWJrZXkiOiIwMmI4N2FmN2U1M2Q0OGNlZWE4MWFiZjliZjU4NzE2Njg3Y2VkYjY4YzhmZjQwZTk2YmEwMmQyMGU5MDQ1YmQwNjUiLCJyZWludmVzdCI6MC4wLCJmYV9lbmFibGVkIjpmYWxzZSwiZmFfc2VjcmV0IjoiT00zVFBEQ0RTTU1QSlhYSyIsImZhX3FyIjoib3RwYXV0aDovL3RvdHAvT3Vyb2Jvcm9zJTIwV2FsbGV0OmRlY2wwMTElNDB0dXQuYnk_c2VjcmV0PU9NM1RQRENEU01NUEpYWEsmaXNzdWVyPU91cm9ib3JvcyUyMFdhbGxldCIsInBpbl9zZXQiOnRydWUsIndhbGxldHMiOltdLCJ0aW1lc3RhbXAiOjE2MjI3MTU5NDAsImluX2NvbXBldGl0aW9uIjpmYWxzZSwiY29tcGV0aXRpb25fcGxhY2UiOjAsImNvbXBldGl0aW9uX25leHQiOjAsImNhbl9wYXJ0aWNpcGF0ZSI6dHJ1ZSwiaGlzdG9yeSI6eyJiYWxhbmNlIjpbWyIyMDIxLTA1LTE5IiwwLjBdLFsiMjAyMS0wNS0yMSIsMC4wXSxbIjIwMjEtMDUtMjYiLDAuMF0sWyIyMDIxLTA1LTI4IiwwLjBdLFsiMjAyMS0wNS0yOSIsMC4wXV0sInBhcmFtaW5lZCI6W1siMjAyMS0wNS0xOSIsMC4wXSxbIjIwMjEtMDUtMjEiLDAuMF0sWyIyMDIxLTA1LTI2IiwwLjBdLFsiMjAyMS0wNS0yOCIsMC4wXSxbIjIwMjEtMDUtMjkiLDAuMF1dLCJzdHJ1Y3R1cmUiOltbIjIwMjEtMDUtMTkiLDAuMF0sWyIyMDIxLTA1LTIxIiwwLjBdLFsiMjAyMS0wNS0yNiIsMC4wXSxbIjIwMjEtMDUtMjgiLDAuMF0sWyIyMDIxLTA1LTI5IiwwLjBdXX19LCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.Q0UeozlgELmEsVAYA7HuLWfyPOtA__4Zl8RYs6kd2II"
+      );
+    }, 400);
+  }).then((data) => {
+    localStorage.setItem("token", data);
+
+    setLogin(dispatch, true);
+    setLoad(dispatch, false);
+  });
+}

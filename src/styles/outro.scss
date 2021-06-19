@@ -1,0 +1,273 @@
+.modal-outro {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 199;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 19, 72, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-outro__dialog {
+  position: relative;
+  max-width: 1046px;
+  width: 100%;
+  max-height: 598px;
+  height: 100%;
+  background: #11144a;
+  border-radius: 35px;
+  padding: 41px 114px 5px;
+}
+
+.modal-outro__close {
+  position: absolute;
+  right: 25px;
+  top: 23px;
+  width: 24px;
+  height: 24px;
+  background: transparent url("../img/sprite/close.svg") no-repeat center;
+  border: none;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.modal-outro__sale {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.modal-outro__svg {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.modal-outr__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+
+.modal-outro__text {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  max-width: 589px;
+  width: 100%;
+  margin-bottom: 46px;
+  text-align: center;
+}
+
+.modal-outro__update {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  max-width: 455px;
+  width: 100%;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.modal-outro__btn {
+  background: #43a260;
+  box-shadow: 0px 7px 39px rgba(67, 162, 96, 0.21);
+  border-radius: 11px;
+  max-width: 302px;
+  width: 100%;
+  height: 69px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding: 24px 24px;
+  margin-bottom: 20px;
+}
+
+.modal-outro__dialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dolar {
+  &__top {
+    display: flex;
+    align-items: center;
+    max-width: 364px;
+    width: 100%;
+    height: 82px;
+    background: #181b5b;
+    border-radius: 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__icon {
+    margin-right: 30px;
+  }
+
+  &__name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+}
+
+.dolar__input {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    width: 16px;
+    height: 30px;
+    background: url("../img/sprite/dollar.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.dolar-modal__input {
+  max-width: 364px;
+  width: 100%;
+  height: 82px;
+  background: #181b5b;
+  border-radius: 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 32px;
+
+  &::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: right;
+    color: #ffffff;
+  }
+}
+
+.bitcoin {
+  &__top {
+    display: flex;
+    align-items: center;
+    max-width: 364px;
+    width: 100%;
+    height: 82px;
+    background: #181b5b;
+    border-radius: 9px;
+    padding-left: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__icon {
+    margin-right: 30px;
+  }
+
+  &__name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+}
+
+.bitcoin__input {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 34px;
+    width: 26px;
+    height: 26px;
+    background: url("../img/sprite/ouro-logo.svg");
+    background-repeat: no-repeat;
+  }
+}
+.tickets__input {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 34px;
+    width: 26px;
+    height: 26px;
+    background: url("../img/sprite/tickets-icon.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.bitcoin-modal__input {
+  max-width: 364px;
+  width: 100%;
+  height: 82px;
+  background: #181b5b;
+  border-radius: 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 32px;
+
+  &::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: right;
+    color: #ffffff;
+  }
+}
+
+.payment__select {
+  display: block;
+  height: 82px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  // margin-bottom: 10px;
+  font-size: 16px;
+}
+.payment__options {
+  background: #111348;
+}

@@ -1,0 +1,33 @@
+.slider {
+  margin-bottom: 74px;
+}
+
+.swiper-pagination-bullet {
+  width: 47.28px;
+  height: 4.8px;
+  background: rgba(0, 0, 0, 0.37);
+  border-radius: 32px;
+}
+
+.slider-block {
+  max-width: 1430px;
+  margin: 0 auto 50px auto;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FFFFFF;
+}
+
+.carousel-root .carousel .control-dots .dot {
+  // background: rgba(0, 0, 0, 0.37);
+  background: rgba(0, 0, 0, 0.37);
+  border-radius: 32px;
+  opacity: .6;
+  width: 48px;
+  height: 5px;
+}
+
+.carousel-root .carousel .control-dots .selected {
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+  background: #fff
+}

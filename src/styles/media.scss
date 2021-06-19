@@ -1,0 +1,663 @@
+@media screen and (max-width: 1450px) {
+  .area {
+    &__balanc {
+      max-width: 398px;
+      padding: 49px 60px 49px 27px;
+    }
+
+    &__input-group {
+      flex-basis: 48%;
+    }
+  }
+
+  .posmining {
+    &__second-item {
+      padding: 59px 9px 61px;
+      margin-right: 10px;
+    }
+
+    &__second-text {
+      text-align: center;
+    }
+  }
+
+  .conditions__block {
+    flex-basis: initial;
+    width: 30%;
+  }
+  .posmining__conditions {
+    padding: 33px 5px 61px 15px;
+  }
+  .conditions__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conditions__title {
+    margin-bottom: 15px;
+  }
+  .conditions__descr {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1425px) {
+  .area {
+    &__competition {
+      max-width: none;
+    }
+    max-width: 700px;
+    &__transactions-bloks {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__transactions-item {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  .area {
+    &__transactions-bloks {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__transactions-item {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .area {
+    &__top-bloks {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__balanc {
+      flex-basis: 50%;
+      margin-right: 10px;
+      margin-bottom: 40px;
+    }
+
+    &__ticket {
+      flex-basis: 50%;
+      margin-bottom: 40px;
+    }
+
+    &__competition {
+      flex-basis: 70%;
+    }
+  }
+
+  .transac {
+    &__operations {
+      grid-template-columns: repeat(2, 469px);
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .Support {
+    padding-top: 78%;
+  }
+  .draw {
+    &__item-text {
+      font-size: 13px;
+      max-width: 160px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    &__menu {
+      flex-direction: column;
+    }
+
+    &__logo-link {
+      svg {
+        width: 279px;
+      }
+    }
+
+    &__price {
+      margin-bottom: 1rem;
+    }
+
+    &__exit {
+      width: 100px;
+    }
+
+    &__items {
+      margin-right: 0;
+    }
+  }
+
+  .draw {
+    &__bloks-item {
+      padding-left: 9px;
+    }
+
+    &__item-text {
+      margin-left: 5px;
+      font-size: 12px;
+    }
+  }
+
+  .area {
+    &__transactions {
+      &-block {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    &__data-bloks {
+      flex-direction: column;
+    }
+
+    &__data-blok {
+      flex-direction: column;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    &__balanc {
+      max-width: 331px;
+    }
+  }
+
+  .transac {
+    &__operations {
+      grid-template-columns: repeat(2, 49%);
+      justify-content: center;
+    }
+    &__tabs {
+      margin-bottom: 10px;
+    }
+
+    &__operations-tabs {
+      flex-wrap: wrap;
+    }
+  }
+  .posmining__circs {
+    flex-direction: column;
+  }
+  .posmining__reinvest {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .modal-forma__label {
+    max-width: 200px;
+    width: 100%;
+  }
+  .modal__form {
+    max-width: 730px;
+    width: 100%;
+  }
+  .Support {
+    padding-top: 0;
+    margin-top: 3rem
+  }
+  .Support__form {
+    position: relative;
+    height: 860px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .transac__operations {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+
+  .transac__operations-sender {
+    padding-bottom: 10px;
+  }
+
+  .applications__bitcoin-curs,
+  .applications__bitcoin-text {
+    font-size: 15px;
+  }
+
+  .applications__value-curs,
+  .applications__value-text {
+    font-size: 15px;
+  }
+
+  .applications__bitcoin {
+    margin-right: 30px;
+  }
+
+  .applications__arrow {
+    margin-right: 30px;
+  }
+  .dolar__name {
+    font-size: 16px;
+  }
+  .bitcoin__name {
+    font-size: 16px;
+  }
+  .dolar__icon {
+    margin-right: 10px;
+  }
+  .bitcoin__icon {
+    margin-right: 10px;
+  }
+  .dolar-modal__input {
+    font-size: 15px;
+    &::placeholder {
+      font-size: 15px;
+    }
+  }
+  .bitcoin-modal__input {
+    font-size: 15px;
+    &::placeholder {
+      font-size: 15px;
+    }
+  }
+  .dolar__top {
+    padding-left: 6px;
+  }
+  .bitcoin__top {
+    padding-left: 6px;
+  }
+  .modal-outro__dialog {
+    padding: 41px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #nest5 {
+    top: 60% !important;
+  }
+  .header {
+    padding: 10px 0 20px;
+
+    &__content {
+      align-items: flex-end;
+      padding: 1rem 0;
+    }
+
+    &__logo {
+      margin-bottom: 15px;
+    }
+
+    &__logo-link {
+      svg {
+        width: 220px;
+      }
+    }
+
+    &__menu {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    &__items {
+      width: 100%;
+      height: 100%;
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    &__registr {
+      padding: 20px 20px;
+      max-width: 239px;
+    }
+
+    &__exit {
+      width: 136px;
+    }
+  }
+
+  .area {
+    &__balanc-tbotom {
+      font-size: 33px;
+    }
+
+    &__competition {
+      flex-basis: 100%;
+    }
+    &__transactions-title {
+      font-size: 20px;
+    }
+  }
+
+
+  .footer {
+    padding: 2rem 0;
+
+    &__content {
+      flex-direction: column-reverse;
+    }
+
+    &__menu {
+      flex-direction: column;
+    }
+
+    &__item {
+      margin-right: 0;
+      padding-bottom: 1rem;
+    }
+
+    &__right {
+      // margin-bottom: 3rem;
+    }
+  }
+
+  .applications__transaction {
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  .applications__arrow svg {
+    transform: rotate(-90deg);
+  }
+  .applications__arrow {
+    margin-right: 0;
+    height: 90px;
+  }
+  .applications__value {
+    margin-right: 0;
+  }
+  .applications__step-code {
+    word-wrap: break-word;
+    max-width: 450px;
+    width: 100%;
+    height: 64px;
+  }
+  .applications__step-one {
+    padding-right: 10px;
+  }
+
+  .draw {
+    &__bloks {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__bloks-item {
+      padding-left: 0;
+      justify-content: center;
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+
+    &__item-text {
+      max-width: 175px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .posmining__second {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .posmining__second-item {
+    width: 48%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .form__proceed {
+    width: 181px;
+  }
+  .form__back {
+    width: 135px;
+  }
+  .input-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-forma__label {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .modal-forma__dialog {
+    height: 100%;
+    overflow: auto;
+    padding: 37px 15px 47px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .draw {
+    &__bloks {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__bloks-item {
+      padding-left: 0;
+      justify-content: center;
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+
+    &__item-text {
+      max-width: 175px;
+      font-size: 14px;
+    }
+  }
+
+  .area {
+    &__balanc,
+    &__ticket {
+      flex-basis: 100%;
+      max-width: 260px;
+      width: 290px;
+      height: 100px;
+      padding: 15px 0px 49px 27px;
+    }
+  }
+
+  .competition {
+    &__tickets-block {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__ticket {
+      margin-bottom: 15px;
+      margin-right: 0;
+    }
+  }
+  .applications__info-descr {
+    padding-left: 16px;
+  }
+  .applications__information {
+    margin-right: 20px;
+  }
+  .applications__information-data {
+    font-size: 14px;
+  }
+  .applications__information-info {
+    font-size: 14px;
+  }
+  .applications__step-one {
+    height: 170px;
+  }
+  .applications__step-code {
+    height: 77px;
+  }
+  .conditions__block {
+    width: 49%;
+  }
+  .posmining__conditions {
+    height: 438px;
+  }
+  .conditions__descr {
+    max-width: 200px;
+  }
+  .posmining__reinvest {
+    padding: 33px 33px 44px 33px;
+  }
+  .reinvest__sum {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .reinvest__btn {
+    margin-top: 10px;
+  }
+  .posmining__reinvest {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .area {
+    &__data-blok {
+      height: 570px;
+    }
+
+    &__send-form {
+      flex-direction: column;
+    }
+
+    &__send-btn {
+      flex-basis: 60px;
+    }
+  }
+
+  .transac {
+    &__operations-sum {
+      margin-right: 30px;
+    }
+
+    &__operations-top {
+      padding: 20px 8px 20px 8px;
+    }
+  }
+
+  .hand__circle {
+    margin-right: 11px;
+  }
+
+  .area__address-code {
+    word-wrap: break-word;
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .area__item-texts {
+    margin-right: 0;
+  }
+
+  .area__transactions-item {
+    padding: 29px 2px 25px 2px;
+  }
+  .transac__operations-data {
+    white-space: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .transac__operations-result {
+    margin-right: 10px;
+  }
+  .transac__operations-block {
+    &::before {
+      display: none;
+    }
+  }
+  .transac__operations-swap,
+  .transac__operations-total,
+  .transac__operations-result {
+    margin-bottom: 10px;
+  }
+  .form__proceed {
+    width: 125px;
+  }
+  .form__back {
+    width: 105px;
+  }
+  .modal-outro__title {
+    font-size: 32px;
+  }
+
+  .bitcoin__name,
+  .dolar__name {
+    font-size: 13px;
+  }
+  .modal-outro__svg {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  .dolar-modal__input {
+    padding-right: 10px;
+  }
+  .bitcoin-modal__input {
+    padding-right: 10px;
+  }
+  .bitcoin__input::before {
+    left: 3px;
+  }
+  .dolar__input::before {
+    left: 3px;
+  }
+  .modal-outr__title {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .modal-outro__btn,
+  .modal-outro__text,
+  .modal-outro__update {
+    font-size: 14px;
+  }
+  .modal-outro__dialog {
+    overflow: scroll;
+  }
+  .bitcoin__icon {
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .dolar__icon {
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .Support {
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .header {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__menu {
+      align-items: center;
+    }
+  }
+  .applications__title {
+    font-size: 21px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,71 @@
+.header__buttons:hover,
+.modal-main__btn:hover {
+  background: linear-gradient(270deg, #FFE600 0%, #FFE600 0.01%, #FFE600 48.96%, #FFE600 100%);
+  box-shadow: 0px 16px 49px rgba(0, 0, 0, 0.29);
+  transition: all .3s;
+
+  &::after {
+    transition: all .3s;
+    opacity: 0;
+  }
+}
+
+// .applications__btn,
+// .applications__send {
+//   outline: none;
+//   border: none;
+// }
+
+.applications__btn:hover,
+.applications__send:hover,
+.competition__btn-top:hover,
+.form__proceed:hover,
+.modal-outro__btn:hover,
+.area__send-btn:hover,
+.area__address-btn:hover,
+.reinvest__btn:hover {
+  background: #259647;
+  box-shadow: 0px 7px 39px rgba(67, 162, 96, 0.21);
+  transition: all .3s;
+}
+
+.modal-forma__close:hover,
+.modal-main__close:hover,
+.modal-outro__close:hover {
+  transform: rotate(180deg);
+  transition: all .4s;
+}
+
+.competition__btn-bottom:hover {
+  background: rgb(255, 59, 59);
+  box-shadow: 0px 7px 39px rgba(67, 162, 96, 0.21);
+  transition: all .3s;
+}
+
+
+.header__exit:hover,
+.arrow__back:hover,
+.applications__delete:hover,
+.form__back:hover {
+  background: rgb(237, 85, 85);
+  transition: all .3s;
+}
+
+
+.transac__tabs:hover {
+  background: #E6A71E;
+  transition: all .4s;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.transac__tabs-active:hover {
+  background: #4351ce;
+  transition: all .4s;
+  font-weight: initial;
+  text-align: center;
+  color: #FFFFFF;
+}
